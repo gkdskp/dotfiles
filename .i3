@@ -1,1 +1,1 @@
-/home/gokul/.i3
+../.i3
