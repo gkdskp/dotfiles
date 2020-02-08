@@ -21,6 +21,16 @@ cp -ri ./.themes/* ~/.themes/
 echo "Copying Icon Theme"
 cp -ri ./.icons/* ~/.icons/
 
+echo "Copying rofi theme"
+if [[ !(-d ~/.config/rofi) ]]
+then
+    mkdir ~/.config/rofi
+fi
+cp -ri ./.config/rofi ~/.config/rofi
+
+echo "Copying .Xresources"
+cp -i ./.Xresources ~/
+
 echo "Setting GTK Theme & Icon Theme"
 echo "Theme: `cat ./.config/gtk-3.0/settings.ini | grep "gtk-theme-name" | grep -o "[^=]*$"`"
 echo "Icons: `cat ./.config/gtk-3.0/settings.ini | grep "gtk-icon-theme-name" | grep -o "[^=]*$"`"

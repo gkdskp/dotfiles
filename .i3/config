@@ -59,7 +59,7 @@ bindsym $mod+Ctrl+b exec terminal -e 'bmenu'
 bindsym $mod+F2 exec google-chrome-stable
 bindsym $mod+F3 exec nautilus
 bindsym $mod+F4 exec code
-bindsym $mod+space exec rofi -show drun
+bindsym $mod+space exec rofi -show drun -font "Iosevka 10"
 # bindsym $mod+F3 exec ranger
 bindsym $mod+Shift+F3 exec pcmanfm_pkexec
 bindsym $mod+F5 exec terminal -e 'mocp'
