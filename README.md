@@ -21,3 +21,8 @@
     google-chrome
     code
     nautilus
+
+![Desktop](./assets/ss_desktop.png)
+![Tiling](./assets/ss_tiling.png)
+![rofi](./assets/ss_rofi.png)
+![Terminal](./assets/ss_term.png)
