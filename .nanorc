@@ -1,0 +1,4 @@
+include /usr/share/nano/*
+
+set linenumbers
+set autoindent
